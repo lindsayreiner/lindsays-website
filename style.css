@@ -12,18 +12,20 @@ body {
 }
 
 #header {
-    padding: 2px;
+    position: fixed;
+    width: 100%;
+    padding: 25px;
     border-bottom: 8px solid #581845;
     border-top: 8px solid black;
-    text-indent: 10px;
     background-color: #beb7b7dc;
     
 }
 
 #header nav {
-    padding-top: 15px;
+    position: fixed;
+    width: 100%;
     margin-right: 20px;
-    float: right;
+    text-align: justify;
     font-weight: bolder;
     font-size: 18px;
 }
@@ -33,11 +35,11 @@ body {
 }
 
 #header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    font-weight: bold;
+    display: inline;
+    padding: 0px 20px;
+    
 }
-
+/*removed element, may add later
 h1 {
     color: #312c2f;
     display: inline-block;
@@ -45,6 +47,7 @@ h1 {
     font-size: 35px;
     
 }
+*/
 
 a {
     text-decoration: none;
@@ -58,7 +61,7 @@ a {
 }
 
 main {
-    padding: 20px 0;
+    padding: 75px 0;
   }  
 
 img {
