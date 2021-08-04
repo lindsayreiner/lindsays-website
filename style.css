@@ -22,13 +22,16 @@ body {
 }
 
 #header nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
+    left: 900px;
     margin-right: 20px;
     text-align: justify;
     font-weight: bolder;
     font-size: 18px;
 }
+
+
 
 #header nav ul {
     list-style-type: none;
